@@ -1,32 +1,51 @@
 body{
-    background-color: #e9edc9;
-    color: #40C9A2;
+    background-color: #0A100D;
+    font-family: monospace;
+    color: #D6D5C9;
+    font-size: 14px;
+    padding: 3%;
+}
+div.header-title h1{
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    margin: auto;
+    color: #D6D5C9;
 }
 
-h1, h2{
-    color: #2F9C95;
-    padding: 20px 10px;
+div.header-text{
+    height: 300px;
+    position: relative;
+}
+#minha-foto{
+    float: left;
+    width: auto;
+    height: 280px;
+    padding: 10px;
+    background-color: #D6D5C9;
 }
 
-.localization{
-    color: #664147;
+div.header-text p{
+    position: absolute;
+    left: 25%;
+    margin: 25px 5px 25px 5px;
+
 }
 
-a.bt{
-    color: #fff;
-    background-color: #2F9C95;
-    padding: 10px 15px;
-    border-radius: 4px;
-    text-decoration: double;
-    font-weight: 900px;
-    font-size: 16px;
-    line-height: 20px;
+ul li:nth-child(odd){
+    background-color: #902923;
+    width: max-content;
 }
 
-.rounded-img{
-    border-radius: 45%;
+/*div{
+    border: 1px solid greenyellow;
+}*/
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
 }
 
-.container{
-    padding: 10px 10px;
+a:hover{
+    color: red;
 }
