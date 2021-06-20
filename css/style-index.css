@@ -1,7 +1,7 @@
 body{
-    background-color: #0A100D;
+    background-color: #D8F3DC;
     font-family: monospace;
-    color: #D6D5C9;
+    color: #2D6A4F;
     font-size: 14px;
     padding: 3%;
 }
@@ -9,7 +9,7 @@ div.header-title h1{
     text-align: center;
     padding: 10px 50px 10px 50px;
     margin: auto;
-    color: #D6D5C9;
+    color: #1B4332;
 }
 
 div.header-text{
@@ -21,7 +21,7 @@ div.header-text{
     width: auto;
     height: 280px;
     padding: 10px;
-    background-color: #D6D5C9;
+    background-color: #74C69D;
 }
 
 div.header-text p{
@@ -32,7 +32,7 @@ div.header-text p{
 }
 
 ul li:nth-child(odd){
-    background-color: #902923;
+    background-color: #B7E4C7;
     width: max-content;
 }
 
@@ -42,10 +42,13 @@ ul li:nth-child(odd){
 
 a{
     text-decoration: none;
-    color: white;
+    color: #52B788;
     padding: 10px;
 }
 
 a:hover{
-    color: red;
+    color: #081C15;
+    text-transform: uppercase;
+    text-decoration: solid;
+    font-weight: bold;
 }
