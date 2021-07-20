@@ -1,54 +1,45 @@
-body{
-    background-color: #D8F3DC;
-    font-family: monospace;
-    color: #2D6A4F;
-    font-size: 14px;
-    padding: 3%;
-}
-div.header-title h1{
-    text-align: center;
-    padding: 10px 50px 10px 50px;
-    margin: auto;
-    color: #1B4332;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-div.header-text{
-    height: 300px;
-    position: relative;
-}
-#minha-foto{
-    float: left;
-    width: auto;
-    height: 280px;
-    padding: 10px;
-    background-color: #74C69D;
+body {
+    background-color: #f0efeb;
 }
 
-div.header-text p{
-    position: absolute;
-    left: 25%;
-    margin: 25px 5px 25px 5px;
-
+.header {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    color: white;
+    position: fixed;
+    width: 100%;
 }
 
-ul li:nth-child(odd){
-    background-color: #B7E4C7;
-    width: max-content;
+.nav-container {
+    flex-basis: 200px;
+    align-self: center;
 }
 
-/*div{
-    border: 1px solid greenyellow;
-}*/
+.nav-container  ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
 
-a{
+.nav li a {
     text-decoration: none;
-    color: #52B788;
-    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
 }
 
-a:hover{
-    color: #081C15;
-    text-transform: uppercase;
-    text-decoration: solid;
-    font-weight: bold;
+.logo {
+    display: flex;
+    width: 10vh;
+    height: 10vh;
 }
