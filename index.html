@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fonte do sentences -->
   <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
   <!-- Fonte do header-title -->
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
@@ -27,7 +28,7 @@
       <nav class="nav-container">
         <ul class="nav">
           <li><a href="index.html"> Home </a></li>
-          <li><a href="#info"> Sobre </a></li>
+          <li><a href="#about"> Sobre </a></li>
           <li><a href=""> Contato </a></li>
         </ul>
       </nav>
@@ -47,16 +48,19 @@
       </div>
     </section>
 
-    <div class="header-text">
-      <img src="/img/ivanielson-cabral.jpg" alt="Ivanielson Cabral" width="300px" id="minha-foto">
-      <p id="info">
-        Olá, me chamo <strong> Ivanielson </strong>, Sou Estudante de Desenvolvimento Web na Trybe, fascinado por
-        tecnologia. Tenho formação técnica em informática, onde tive meu primeiro contato e acabei me apaixonando
-        pela programação.
-        <strong> Brasileiro </strong>, natural de <strong>Campina Grande - PB</strong>
-      </p>
-
-    </div>
+    <section id="about" class="about-contents">
+      <figure class="img-perfil">
+        <caption id="info">
+          <p>
+            Olá, me chamo <strong> Ivanielson </strong>, Sou Estudante de Desenvolvimento Web na Trybe, fascinado por
+            tecnologia. Tenho formação técnica em informática, onde tive meu primeiro contato e acabei me apaixonando
+            pela programação.
+            <strong> Brasileiro </strong>, natural de <strong>Campina Grande - PB</strong>
+          </p>
+        </caption>
+        <img src="/img/ivanielson-cabral.jpg" class="shadow-none p-3 mb-5 bg-light rounded" alt="Ivanielson Cabral" id="minha-foto">
+      </figure>
+    </section>
 
     <a href="https://www.linkedin.com/in/ivanielsoncabral/" class="btn btn-primary" target="_blank"><img
         src="/img/linkedin.png" alt="" width="100px"></a>
