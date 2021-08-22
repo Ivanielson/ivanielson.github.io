@@ -101,8 +101,49 @@ a:active {
   margin: 0 15px;
 }
 
+#minha-foto:hover {
+  width: 60%;
+  height: 50%;
+  transition: 1.5s;
+  box-shadow: 1px 2px 15px;
+  border-radius: 10px;
+}
+
 #info {
   width: 60%;
   text-align: justify;
   margin: 0 15px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  padding: 10px;
+}
+
+.skills-list {
+  margin: 10px;
+  padding: 15px;
+  font-size: 18px;
+  text-align: justify;
+  font-style: italic;
+}
+
+footer {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+footer .redes {
+  display: flex;
+  width: 7rem;
+  margin: 5px;
+  padding: 5px;
+  justify-content: space-around;
 }
